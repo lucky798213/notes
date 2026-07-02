@@ -187,10 +187,19 @@ plugins:
       priority: 5
       condition: not-index
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: lucky798213/notes
+        repoId: R_kgDOTKsq2w
+        category: Announcements
+        categoryId: DIC_kwDOTKsq284DAV4F
+        lang: zh-CN
+        mapping: pathname
+        strict: false
+        reactionsEnabled: true
+        inputPosition: bottom
     layout:
       position: afterBody
       priority: 10
